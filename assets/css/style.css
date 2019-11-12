@@ -2432,10 +2432,25 @@ img.alignright {
     margin: 0 10px 0 10px;
 }
 
+div.e_pulse img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.e_pulse div.box {
+    border-radius: 0px 0px 10px 10px;
+}
+
 /* ==== media screen queries ==== */
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+	div.e_pulse img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.e_pulse div.box {
+    border-radius: 0px 0px 10px 10px;
+}
     .navbar .navbar-inner .container .logo {
         padding-left: 20px;
         padding-right: 20px;
@@ -2480,6 +2495,13 @@ img.alignright {
 
 @media (max-width: 767px) {
 
+	div.e_pulse img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.e_pulse div.box {
+    border-radius: 0px 0px 10px 10px;
+}
     .navbar .navbar-inner .container .logo {
         padding-left: 20px;
         padding-right: 20px;
@@ -2590,6 +2612,7 @@ img.alignright {
         margin-bottom: 30px;
 
     }
+	
 
 }
 
@@ -2642,5 +2665,14 @@ img.alignright {
     .home-posts .post-image {
         margin-top: 20px;
     }
+	
+	div.e_pulse img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.e_pulse div.box {
+    border-radius: 0px 0px 10px 10px;
+}
+	
 
 }
